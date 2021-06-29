@@ -8,9 +8,4 @@ const input = document.createElement("input");
 container.appendChild(input);
 
 addAddButton(container, input);
-
-const list = document.createElement("ul");
-
-container.appendChild(list);
-
-fetchAndShow(list, DB, input);
+fetchAndShow(DB, input);
